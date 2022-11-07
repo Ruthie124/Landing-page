@@ -1,0 +1,107 @@
+body{
+
+    text-align: center;
+    
+
+}
+h1{
+    text-align: left;
+    color: white;
+    width: auto;
+    font-size: 70px;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.main{
+    height: 750px;
+    width: 1500px;
+    background-image: url('../IMG-20220901-WA0007.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: auto;
+}
+li{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+li a{
+    padding: 8px;
+    background-color:white;
+}
+.top nav{
+    list-style-type: none;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+ 
+.top nav li a{
+    transition: 3s;
+    color: blueviolet;
+}
+.top nav li a:hover {
+    color: blue;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;
+}
+.main h2{
+    font-size: 70px;
+    margin-top: 80px;
+    color:white;
+    bottom:auto;
+}
+.main p{
+    margin:20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+    color: white;
+    font-size: 50px;
+    bottom: auto;
+}
+
+
+
+
+.button{
+    position: center;
+    left: 30%;
+    top: 30%;
+    font-size: larger;
+    text-decoration: black;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;
+}
+.button :hover{
+    background-color: blueviolet;
+    transition: 0.7s;
+}
+.li{
+    padding:16px;
+    font-size: 16px;
+    border:none;
+}
+
+.li a{
+    display: inline-block;
+    position: relative;
+}
+premium-fancy-wrapper-typing{
+    overflow-inline: hidden;
+    backspeed&quote: 30,&quote;
+    startdelay&quote:40,&quote;
+
+}
